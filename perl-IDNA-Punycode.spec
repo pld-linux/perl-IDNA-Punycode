@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	IDNA
-%define	pnam	Punycode
+%define		pdir	IDNA
+%define		pnam	Punycode
 Summary:	Encodes Unicode string in Punycode
 Summary(pl):	Kodowanie ci±gu znaków Unicode w Punycode
 Name:		perl-IDNA-Punycode
