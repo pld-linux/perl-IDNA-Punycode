@@ -11,7 +11,7 @@ Name:		perl-IDNA-Punycode
 Version:	0.02
 Release:	1
 # same as perl
-License:	(enter GPL/LGPL/BSD/BSD-like/Artistic/other license name here)
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/M/MI/MIYAGAWA/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e4cb6cb3f4044224475ef06f847f6667
