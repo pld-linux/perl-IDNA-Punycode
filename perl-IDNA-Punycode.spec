@@ -9,7 +9,7 @@ Summary:	Encodes Unicode string in Punycode
 Summary(pl):	Kodowanie ci±gu znaków Unicode w Punycode
 Name:		perl-IDNA-Punycode
 Version:	0.02
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -27,7 +27,8 @@ Punycode, an efficient encoding of Unicode for use with IDNA.
 
 %description -l pl
 IDNA::Punycode jest modu³em s³u¿±cym do kodowania / dekodowania ci±gów
-znaków Unicode w Punycode, wydajne kodowanie Unicode do u¿ytku z IDNA.
+znaków Unicode w Punycode, czyli wydajnym kodowaniu Unicode do u¿ytku
+z IDNA.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -52,5 +53,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
+%dir %{perl_vendorlib}/IDNA
 %{perl_vendorlib}/IDNA/Punycode.pm
 %{_mandir}/man3/*
