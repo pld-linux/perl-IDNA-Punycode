@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	IDNA
 %define	pnam	Punycode
-Summary:	encodes Unicode string in Punycode
-Summary(pl):	koduje ci±g znaków Unicode w Punycode
+Summary:	Encodes Unicode string in Punycode
+Summary(pl):	Kodowanie ci±gu znaków Unicode w Punycode
 Name:		perl-IDNA-Punycode
 Version:	0.02
 Release:	1
