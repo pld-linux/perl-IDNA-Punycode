@@ -13,7 +13,7 @@ Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://search.cpan.org/CPAN/authors/id/M/MI/MIYAGAWA/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-authors/id/M/MI/MIYAGAWA/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e4cb6cb3f4044224475ef06f847f6667
 URL:		http://search.cpan.org/dist/IDNA-Punycode/
 BuildRequires:	perl-devel >= 1:5.8.0
