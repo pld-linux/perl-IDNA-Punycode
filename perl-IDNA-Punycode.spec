@@ -6,7 +6,7 @@
 %define		pdir	IDNA
 %define		pnam	Punycode
 Summary:	Encodes Unicode string in Punycode
-Summary(pl):	Kodowanie ci±gu znaków Unicode w Punycode
+Summary(pl.UTF-8):   Kodowanie ciÄ…gu znakÃ³w Unicode w Punycode
 Name:		perl-IDNA-Punycode
 Version:	0.02
 Release:	2
@@ -25,9 +25,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 IDNA::Punycode is a module to encode / decode Unicode strings into
 Punycode, an efficient encoding of Unicode for use with IDNA.
 
-%description -l pl
-IDNA::Punycode jest modu³em s³u¿±cym do kodowania / dekodowania ci±gów
-znaków Unicode w Punycode, czyli wydajnym kodowaniu Unicode do u¿ytku
+%description -l pl.UTF-8
+IDNA::Punycode jest moduÅ‚em sÅ‚uÅ¼Ä…cym do kodowania / dekodowania ciÄ…gÃ³w
+znakÃ³w Unicode w Punycode, czyli wydajnym kodowaniu Unicode do uÅ¼ytku
 z IDNA.
 
 %prep
