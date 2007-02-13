@@ -6,7 +6,7 @@
 %define		pdir	IDNA
 %define		pnam	Punycode
 Summary:	Encodes Unicode string in Punycode
-Summary(pl.UTF-8):   Kodowanie ciągu znaków Unicode w Punycode
+Summary(pl.UTF-8):	Kodowanie ciągu znaków Unicode w Punycode
 Name:		perl-IDNA-Punycode
 Version:	0.02
 Release:	2
