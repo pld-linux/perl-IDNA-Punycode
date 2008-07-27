@@ -9,7 +9,7 @@ Summary:	Encodes Unicode string in Punycode
 Summary(pl.UTF-8):	Kodowanie ciągu znaków Unicode w Punycode
 Name:		perl-IDNA-Punycode
 Version:	0.02
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
