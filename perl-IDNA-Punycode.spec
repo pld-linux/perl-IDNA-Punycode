@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test" (encode_w-prefix test fails)
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	IDNA
 %define		pnam	Punycode
 Summary:	DEPRECATED module for IDNA and Punycode
